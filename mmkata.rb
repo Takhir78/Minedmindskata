@@ -1,5 +1,3 @@
-
-
-puts (1...5).to_a
-puts "kebab"
-puts (6..100).to_a
+for tt in 1..100
+	puts tt, "\n";
+end
