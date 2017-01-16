@@ -1,5 +1,10 @@
-(1..100).each do|n|
-  mined = if n % 3 == 0 replace 'mined' end
-  minds = if n % 5 == 0 replace 'minds' end
-  puts "#{n} #{mined}#{minds}"
+1.upto 100 do |i|
+  string = ""
+
+  string += "Takhir" if i % 3 == 0
+  string += "Salimov" if i % 5 == 0
+
+  puts "#{i} = #{string}"
+
 end
+
