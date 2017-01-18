@@ -5,7 +5,6 @@ require_relative "minedkata2.rb"
 class Testminedkata < Minitest::Test
 	def test_1_returns_1
 		assert_equal(1,1)
-
 	end
 
 	def test_function_returns_1
@@ -17,15 +16,17 @@ class Testminedkata < Minitest::Test
 	end
 
 	def test_function_3
-		assert_equal("Mined",minedmindskata(3))
+		assert_equal('Mined',minedmindskata(3))
 	end
 	
 	def test_function_returns_5
-		assert_equal("Minds",minedmindskata(5))
+		assert_equal('Minds',minedmindskata(5))
 	end
 
-	def test_function_returns_6
-		assert_equal("MinedMinds",minedmindskata(6))
+	def test_function_returns_15
+		assert_equal('MinedMinds',minedmindskata(15))
 	end
+
+	
 end
 
