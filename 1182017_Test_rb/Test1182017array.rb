@@ -6,6 +6,14 @@ class TestArray < Minitest::Test
 		results = minedminds()
 		assert_equal(100,results.count)
 	end
+
+	def test_function_returns_3
+		assert_equal('mined',minedminds(3))
+	end
+	def test_function_returns_5
+		assert_equal('mind',minedminds(5))
+
 end
 
+end
 	
