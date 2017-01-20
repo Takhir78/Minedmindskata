@@ -1,26 +1,10 @@
-
-types_of_computer = 2
-
-x = "There are #{types_of_computer} types of computers"
- desktop = "desktop"
- laptop = "laptop"
-
- y = "The first one is a #{desktop} and the second one is a #{laptop}"
-
- puts "I said: #{x}"
- puts "Then I said: #{y}"
-
- a = "The #{laptop} is more light ..."
- b = "compare to #{desktop}"
-
- puts a + b
-
-puts "BELOW IS THE EXAMPLE 6 "
+# "When you pu inside string types_of_people appear the number which stayed after equal mark"
 types_of_people = 10
-x = "There are #{types_of_people} types of people."
-binary = "binary"
-do_not = "don't"
-y = "Those who know #{binary} and those who #{do_not}."
+x = "There are #{types_of_people} types of people." # Here the string inside a string
+binary = 'binary' # Here single quote. If you put single quote instead of double quote it works too
+do_not = "don't" # Here double quote. Both single and double works
+y = "Those who know #{binary} and those who #{do_not}." # Here two strings inside a string
+
 
 puts x
 puts y
@@ -28,15 +12,16 @@ puts y
 puts "I said: #{x}."
 puts "I also said: '#{y}'."
 
-hilarious = false
-joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
+hilarious = true # I have changed the false to true
+joke_evaluation = "Isn't that joke so funny?! #{hilarious}" # Here only one string in a string
+
 
 puts joke_evaluation
 
 w = "This is the left side of..."
 e = "a string with a right side."
 
-puts w + e
+puts w + e # If you add two string with + , it makes a long sentence with 
 
 
 
