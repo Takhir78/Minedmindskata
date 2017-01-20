@@ -2,21 +2,22 @@ def minedminds(mmtest1)
 	array= (1..100)
 	i = 0
 
-	while arr[i] , arr[n]
+	while array[i] , array[n]
 		if i % 3 == 0 && i % 5 == 0
-			arr[i] = 'minedminds'
+			array[i] = 'minedminds'
 			elsif i % 3 == 0
-				arr[i] = 'mined'
+				array[i] = 'mined'
 			elsif i % 5 == 0
-				arr[i] = 'minds'
+				array[i] = 'minds'
 			else
-				arr[i] = i
+				array[i] = i
 				i += 1
 			end
 		end
 
-		return arr
+		return array
 	end
 
 	minedmind(100)
 
+# Everything is wrong here. It doesnt work
