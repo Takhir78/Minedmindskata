@@ -14,7 +14,7 @@
 
 formatter = "%{f} %{s} %{t}"
 
-puts formatter % {f: 123, s: 345, t: 678}
+puts formatter % {f: 123, s: 465, t: 789}
 puts formatter % {f: "first three", s: "second three", t: "third three"}
 puts formatter % {f: formatter, s: formatter, t: formatter}
 puts formatter % {
