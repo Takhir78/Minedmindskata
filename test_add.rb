@@ -9,4 +9,11 @@ class TestAddition < Minitest::Test
 	def test_1_add_1_equals_2
 		assert_equal(2, my_addition(1, 1))
 	end
+
+	def test_15_add_25_equals_40
+		assert_equal(40, my_addition(15, 25))
+	end
+
+
+
 end
