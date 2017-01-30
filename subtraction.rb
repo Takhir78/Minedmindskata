@@ -1,16 +1,8 @@
-def my_subtraction (*numbers)
-# result = numbers [0]
-results = numbers.shift
-#results = 3
-puts "results #{results}"
-numbers.each do |num|
-results -= num
+def my_subtraction(*numbers)
+	result = numbers.shift
 
-
-puts "num #{num}"
-
-puts "results #{results}"
+	numbers.each do |num|
+		result -= num 
 	end
-	return results
-
+	result
 end
