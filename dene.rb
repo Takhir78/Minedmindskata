@@ -109,7 +109,7 @@
 # end
 
 
-oil_change = 7005
+oil_change = 60007
 
 case oil_change
 
@@ -120,6 +120,7 @@ when 5000..6000
 when 6001..7000
 	puts "Don't drive"
 else 
-	puts "Take care"
+	puts "take a VACATION"
 
 end
+
