@@ -1,4 +1,4 @@
-# Test for oneoff_class.rb
+# Test for oneoff.rb
 # Marvin
 
 require "minitest/autorun"
