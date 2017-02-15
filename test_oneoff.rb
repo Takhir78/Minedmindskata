@@ -1,3 +1,4 @@
+
 # Test for oneoff.rb
 # Marvin
 
@@ -27,4 +28,3 @@ class TestOneOff < Minitest::Test
 		assert_equal(["4568", "2567", "4967"], results)
 	end
 
-end

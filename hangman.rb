@@ -1,3 +1,4 @@
+
 ###############################################################################
 ### Very basic hangman game inspired by TechHire interview with Mined Minds ###
 ###############################################################################
@@ -381,4 +382,3 @@ def loser(ani_count)
   end
 end
 
-start_game($word)

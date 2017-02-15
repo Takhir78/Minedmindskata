@@ -1,3 +1,4 @@
+
 # In-class demonstration of one digit off (number & array)
 # Broken up into multiple methods
 # Marvin
@@ -39,4 +40,3 @@ def winning_tickets_off_by_one(my_ticket, winning_tickets)
 
 end
 
-# print winning_tickets_off_by_one("4567", ["4568", "2567", "4568", "5555", "9869"])
